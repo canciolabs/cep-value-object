@@ -1,0 +1,30 @@
+{
+    "name": "cancio-labs/cep-value-object",
+    "description": "A class that represents a CEP (Brazilian Zipcode)",
+    "type": "library",
+    "keywords": ["cep", "brasil", "value object"],
+    "homepage": "https://github.com/canciolabs/cep-value-object",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Nilo Soares",
+            "email": "nilosoares@gmail.com"
+        },
+        {
+            "name": "Cancio Labs",
+            "email": "canciolabs@gmail.com"
+        },
+        {
+            "name": "NSCPS Solutions",
+            "email": "nscpssolutions@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CancioLabs\\ValueObject\\Cep\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
