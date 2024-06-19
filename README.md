@@ -22,3 +22,7 @@ echo $cep->getFormatted(); // outputs 22710-305
 ```
 
 The CEP class will validate the given string and throw an exception if it's not a valid CEP (ie if doesn't match either the 99999-999 or 99999999 pattern).
+
+## Running Tests
+
+- From the project root, run: `vendor/bin/phpunit .`
