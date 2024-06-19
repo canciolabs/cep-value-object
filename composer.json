@@ -24,6 +24,11 @@
             "CancioLabs\\ValueObject\\Cep\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "CancioLabs\\ValueObject\\Cep\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "php": ">=7.4"
     },
